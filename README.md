@@ -8,8 +8,15 @@ Este projeto, intitulado "Nasa Girl", foi desenvolvido como parte de uma ativida
 <li>
   HTML5: Estrutura da página, incluindo o carrossel de imagens. <br>
 </li>
-CSS3: Estilização da página, com um fundo de degradê cinza a preto e design responsivo.
-jQuery: Manipulação do DOM e implementação da funcionalidade do carrossel de imagens.
-JavaScript: Lógica de controle do carrossel para navegação entre as imagens.
+  <li>
+    CSS3: Estilização da página, com um fundo de degradê cinza a preto e design responsivo.
+  </li>
+<li>
+  jQuery: Manipulação do DOM e implementação da funcionalidade do carrossel de imagens.
+</li>
+  <li>
+    JavaScript: Lógica de controle do carrossel para navegação entre as imagens.
+
+  </li>
 
 </ul>
