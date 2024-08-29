@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(/imagens/nasa_fundo.jpg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+h1{
+    position: relative;
+    top: -40%;
+}
+.carousel {
+    position: relative;
+    width: 1050px;
+    margin: 0 auto;
+    left: -12%;
+    overflow: hidden;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.nasaSlides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.nasaSlides img {
+    width: 60%;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
